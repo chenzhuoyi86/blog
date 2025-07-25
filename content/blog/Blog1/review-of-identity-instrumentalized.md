@@ -1,15 +1,18 @@
 ---
 title: Review of Identity Instrumentalized
+slug: review-of-identity-instrumentalized
 date: '2025-07-24T12:16:00.000Z'
-lastUpdated: '2025-07-24T23:29:00.000Z'
-category: 
+lastUpdated: '2025-07-25T14:39:15.960Z'
+category: null
 description: >-
-  This is a review of journal article titled "Identity Instrumentalized," which recounts an intriguing history
-  of how computer scientist Woodrow Wilson Bledsoe and his Panoramic Research Incorporated (PRI) laid down the foundational 
-  works for computerized facial recognition algorithms using the funding from the Central Intelligence Agency (CIA) during 
-  the 1960s United States, and how 
-  individual identities were being re-interpreted, re-configured, and instrumentalized to adapted for automated pattern 
-  matching algorithms within the process.
+  This is a review of journal article titled "Identity Instrumentalized," which
+  recounts an intriguing history of how computer scientist Woodrow Wilson
+  Bledsoe and his Panoramic Research Incorporated (PRI) laid down the
+  foundational  works for computerized facial recognition algorithms using the
+  funding from the Central Intelligence Agency (CIA) during  the 1960s United
+  States, and how  individual identities were being re-interpreted,
+  re-configured, and instrumentalized to adapted for automated pattern  matching
+  algorithms within the process.
 featuredImage: Bledsoe.jpeg
 ---
 
