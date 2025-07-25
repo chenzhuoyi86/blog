@@ -1,1 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 14 May 2025 03:24:57 GMT</lastBuildDate><item><title><![CDATA[Objectivity1]]></title><description><![CDATA[Objectivity]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/MyFirstBlog/Objectivity1/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/MyFirstBlog/Objectivity1/</guid><pubDate>Sat, 10 May 2025 00:49:13 GMT</pubDate><content:encoded>&lt;p&gt;Objectivity&lt;/p&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Jul 2025 05:30:10 GMT</lastBuildDate><item><title><![CDATA[Review of Identity Instrumentalized]]></title><description><![CDATA[Review        Pattern matching algorithms — a family of algorithms that seeks to identify
+similarities
+between structured data whether in…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Blog1/Reiview of Identity Instrumentalized/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Blog1/Reiview of Identity Instrumentalized/</guid><pubDate>Thu, 24 Jul 2025 12:16:00 GMT</pubDate><content:encoded>&lt;h1&gt;Review&lt;/h1&gt;
+&lt;p&gt;       Pattern matching algorithms — a family of algorithms that seeks to identify
+similarities
+between structured data whether in text, images, DNA, or sounds — are foundational of modern computing and are ubiquitous
+in contemporary societies. Its application ranges from the &lt;a href=&quot;https://www.theguardian.com/world/2019/sep/04/smile-to-pay-chinese-shoppers-turn-to-facial-payment-technology&quot;&gt;payment through smile&lt;/a&gt; to the &lt;a href=&quot;https://www.scmp.com/abacus/tech/article/3029548/facial-recognition-enforcing-traffic-laws-shenzhen&quot;&gt;identification of traffic law violators&lt;/a&gt;, from recognizing
+handwritten characters to DNA sequence matching, from search engine to email spam detection. In a word, it would be hard to
+imagine the a world without them in 2025. In &quot;Identity Instrumentalized,&quot; Aaron Gluck-Thaler offers a compelling glimpse into the Cold War-era development of one such algorithmic strand: facial recognition. Drawing
+from rich archival
+resources, he presented a historical epistemology case study centered around mathematician and computer
+scientist &lt;a href=&quot;https://en.wikipedia.org/wiki/Woody_Bledsoe&quot;&gt;Woody Bledsoe&lt;/a&gt; (1921 — 1995) and his Panoramic Research Incorporated (PRI) that Bledsoe
+co-founded with biophysicist &lt;a href=&quot;https://en.wikipedia.org/wiki/Iben_Browning&quot;&gt;Iben Browning&lt;/a&gt; (1918 — 1991). Gluck-Thaler
+meticulously narrated how the PRI and its staff was covertly tasked by the Central Intelligence Agency (CIA) to develop computerized facial recognition programmes,
+specifically focusing on the power dynamics within the cooperation between the CIA and the PRI, as well as Bledsoe&apos;s
+approach to identification, while situating the study in the scholarship of how classification rework the notion of
+personhood.&lt;/p&gt;
+&lt;p&gt;       Gluck-Thaler cautioned that to understand the emergence of facial recognition (as well
+as other technological advancement), one should consider how scientific knowledge is (socially) produced and
+epistemologically  conceptualized. He also reminded readers that a genealogical survey of a technology before its present
+form is usually beneficial , as &quot;Bledsoe&apos;s project is part of a longer history&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; of studying the face through statistics&quot;
+(p. 1164). The article concluded that amid the unsteady patronage relationship, Bledsoe and his
+colleagues successfully advanced facial recognition technology, by &quot;[reinforcing] a key assumption...that recognizing
+identity could be reduced to classifying specific features within a set of existing example&quot; (p. 1161). In particular, the
+researchers reduced all the photographic input into pattern vectors (using scanner) and recorded them; they then use
+complex mathematical techniques to create (hyper)planes to divide problem space such that different types of vectors
+belong to different classification. Bledsoe called this method as &lt;strong&gt;feature extraction&lt;/strong&gt;. In doing so, they changed the episte-mological underpinning for facial recognition — from recognizing faces to examine the similarity of vectors
+(vectorization is still a widely-used technique in modern computer science, such as &lt;a href=&quot;https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/&quot;&gt;word embedding&lt;/a&gt; in Natural Language Processing). Gluck-Thaler fittingly summarized this process &quot;&lt;em&gt;identity instrumentalized&lt;/em&gt;&quot; for the following reasons:&lt;/p&gt;
+  &lt;div class=&quot;indented-list&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;A wide range of instruments including RAND Tablets and memory capacities of digital computers shaped their recognition project&lt;/li&gt;
+&lt;li&gt;The PRI researchers adopted a &quot;instrumentalist orientation to identity, neither asking philosophical questions about it nor defining it theoretically&quot; (p.1166).&lt;/li&gt;
+&lt;li&gt;In completing the project, Bledsoe and his fellows used &quot;instrumental strategies&quot; for securing fundings for their personal developments.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/div&gt;
+&lt;p&gt;       There are many interesting details in the article, thanks to the existing and
+declassified rich archival resources, and Gluck-Thaler&apos; scrupulous works. For example, the PRI never publicly reveal that
+they were working for the CIA, but reading through declassified CIA files confirmed that its sponsorship of the PRI; and
+the CIA was its sole sponsor in 1963! It was also interesting to observe that Bledsoe&apos;s problem, identifying a person
+using a facial photo, is currently &lt;a href=&quot;https://www.dhs.gov/publication/facial-recognition-technology&quot;&gt;solved and applied widely&lt;/a&gt;. Another memorable detail is that Bledsoe was giving a lecture to high school study in 1984
+(when he was no longer working for the CIA), on the
+topic of &quot;the social responsibility of science,&quot; where he warned that science could be exploited by a Orwellian Big Brother
+to spy on people. If not regarding this act only as hypocrisy, it might reflect a &quot;double-thinking&quot; mentality of Cold War
+(or beyond) scientists and engineers: on the one hand they passionately worked for increasing their country&apos;s defense and
+intelligence ability, while also cautioned the public about the potentially existing dangers of technologies they
+unscrupulously created. Their moral reckoning, it seems, often came after their paycheck for patriotism.&lt;/p&gt;
+&lt;p&gt;       Additionally, there is one element mentioned in the article (might) invite further research. Gluck-Thaler mentioned that
+during the project of facial recognition, Bledsoe was tasked to develop mathematical methods to achieve classification,
+while his co-investigator anthropologist &lt;a href=&quot;https://en.wikipedia.org/wiki/Christy_G._Turner_II&quot;&gt;Christy G. Turner&lt;/a&gt; was
+instructed to &quot; &apos;collect a fairly large sample of existing measurements&apos; on facial structure [of difference races]&quot; (p.
+1181). This revealed at
+least two intriguing facts: first, racialist paradigm in anthropology was prevalent in the 1960s, and anthropological
+knowledge could be used for surveillance or imperialist aims; second, the collaboration between computer scientist and
+anthropologists (or &quot;social scientists&quot; overall) might not be rare. Numerous scholarship had pointed
+out the colonial-imperial legacies of anthropology, while few had explored the collaborative paradigm between
+anthropologists and other scientist under the direction of (say) intelligence community. Moreover, as more (Western)
+anthropologists moved further to the political Left, how did the decoupling of anthropology and other sciences happened.&lt;/p&gt;
+&lt;p&gt;       Overall, the article is not only narratively rich but epistemologically insightful. That said, it might have been clearer on the specific epistemic commitments underpinning Bledsoe’s methods, for instance, how they related to broader debates in statistics, AI, or operationalism.&lt;/p&gt;
+&lt;h1&gt;Reference&lt;/h1&gt;
+&lt;p&gt;This is the review of &quot;&lt;a href=&quot;https://doi.org/10.1353/tech.2024.a940465&quot;&gt;Identity Instrumentalized: Pattern Recognition as an
+Epistemology of Surveillance, 1960–66&lt;/a&gt;&quot; by &lt;a href=&quot;https://munkschool.utoronto.ca/person/aaron-gluck-thaler&quot;&gt;Prof. Aaron Gluck-Thaler&lt;/a&gt;, which was
+published on the journal &lt;em&gt;Technology and Culture&lt;/em&gt; in October 2024. Prof. Gluck-Thaler is currently an assistant professor
+at the Munk School of Global Affairs &amp;#x26; Public Policy of the University of Toronto. He obtained his Ph.D.
+in history of science from Department of History of Science from Harvard University.&lt;/p&gt;
+&lt;h1&gt;Related&lt;/h1&gt;
+&lt;p&gt;Interested readers could also see this &lt;a href=&quot;https://www.wired.com/story/secret-history-facial-recognition/&quot;&gt;article&lt;/a&gt; by Shaun
+Raviv that narrated Bledsoe&apos;s life in a more literary way.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;For example, &lt;a href=&quot;https://en.wikipedia.org/wiki/Francis_Galton&quot;&gt;Francis Galton&lt;/a&gt;&apos;s (1822 — 1911) work on average face and &lt;a href=&quot;https://en.wikipedia.org/wiki/Alphonse_Bertillon&quot;&gt;Alphonse Bertillon&lt;/a&gt;&apos;s (1853 — 1914) work on anthropometry for the police force.&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item></channel></rss>
