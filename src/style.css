@@ -163,6 +163,7 @@ p {
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
+  text-align: justify;
 }
 
 ul,
@@ -328,4 +329,25 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+/* Style horizontal rule (---) as thin, light divider */
+hr {
+  height: 1px;
+  background-color: #e0e0e0; /* soft gray */
+  border: none;
+  margin: 2rem 0;
+}
+
+/* Automatically insert a subtle line after each top-level heading (# Heading) */
+h1::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 1rem 0;
+}
+
+.indented-list {
+  margin-left: 2em;
 }
