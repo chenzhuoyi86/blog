@@ -1,8 +1,8 @@
 ---
 title: Review of Identity Instrumentalized
 slug: review-of-identity-instrumentalized
-date: '2025-07-24T12:16:00.000Z'
-lastUpdated: '2025-07-25T14:39:15.960Z'
+date: '2025-07-23T12:16:00.000Z'
+lastUpdated: '2025-07-25T23:34:38.406Z'
 category: null
 description: >-
   This is a review of journal article titled "Identity Instrumentalized," which
@@ -13,7 +13,10 @@ description: >-
   States, and how  individual identities were being re-interpreted,
   re-configured, and instrumentalized to adapted for automated pattern  matching
   algorithms within the process.
-featuredImage: Bledsoe.jpeg
+featuredImage: ./Bledsoe.jpeg
+featuredImageCaption: |
+  Woody Bledsoe in 1965 
+  Source: Dan Winters
 ---
 
 

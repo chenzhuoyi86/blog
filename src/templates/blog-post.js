@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
 import Bio from "../components/bio"
@@ -11,6 +12,8 @@ const BlogPostTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
+  const featuredImg = getImage(post.frontmatter.featuredImage?.childImageSharp?.gatsbyImageData)
+
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -23,6 +26,39 @@ const BlogPostTemplate = ({
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
+        {post.frontmatter.lastUpdated && post.frontmatter.lastUpdated !== post.frontmatter.date && (
+          <p style={{ fontStyle: "italic", fontSize: "0.9rem" }}>
+            Last updated: {post.frontmatter.lastUpdated}
+          </p>
+        )}
+
+        {featuredImg && (
+          <figure style={{ marginBottom: "1rem" }}>
+            <GatsbyImage
+              image={featuredImg}
+              alt={post.frontmatter.title}
+              style={{ marginBottom: "0.25rem" }}
+            />
+            {post.frontmatter.featuredImageCaption && (
+              <figcaption
+                style={{
+                  fontSize: "0.8rem",
+                  color: "#666",
+                  textAlign: "center",
+                  fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+                  fontStyle: "normal",
+
+                }}
+                
+              >
+                {post.frontmatter.featuredImageCaption.split('\n').map((line, idx) => (
+                  <div key={idx}>{line}</div>
+              ))}
+              </figcaption>
+            )}
+          </figure>
+        )}
+
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
@@ -91,7 +127,14 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        lastUpdated(formatString: "MMMM DD, YYYY")
         description
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(width: 800)
+          }
+        }
+        featuredImageCaption
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
