@@ -6,6 +6,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Comments from "../components/comments"
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -63,6 +64,7 @@ const BlogPostTemplate = ({
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        <Comments issueTerm={post.fields.slug}/>
         <hr />
         <footer>
           <Bio />
@@ -124,6 +126,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields{
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
