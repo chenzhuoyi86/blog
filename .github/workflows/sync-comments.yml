@@ -1,0 +1,28 @@
+name: Sync Utterances comments to Supabase
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # every 20 minutes
+  workflow_dispatch:          # allow manual runs
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install script deps
+        run: npm install @octokit/rest cross-fetch
+
+      - name: Run sync script
+        run: node scripts/sync-comments.js
+        env:
+          GH_OWNER: chenzhuoyi86
+          GH_REPO: blog
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
